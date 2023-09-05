@@ -28,7 +28,7 @@ fig = px.scatter_geo(
 
 # Customize the map
 fig.update_geos(
-    resolution=1080,
+    resolution=300,
     showcoastlines=True,
     coastlinecolor="Black",
     showland=True,
