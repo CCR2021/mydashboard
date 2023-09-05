@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+14.47
 # Sample geographical data
 data = {
-    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix'],
-    'Latitude': [40.7128, 34.0522, 41.8781, 29.7604, 33.4484],
-    'Longitude': [-74.0060, -118.2437, -87.6298, -95.3698, -112.0740],
+    'City': ['Kadapa', 'Badvel', 'Jammalamadugu', 'Pulivendla', 'vempalle'],
+    'Latitude': [14.4734, 14.7318, 14.8519, 14.4214, 14.3665],
+    'Longitude': [78.8284, 79.0581, 78.3699, 78.1983, 78.4581],
     'Population (millions)': [8.4, 3.9, 2.7, 2.3, 1.7],
 }
 
@@ -23,7 +23,7 @@ fig = px.scatter_geo(
     text='City',
     size='Population (millions)',
     projection='natural earth',
-    title='Population Distribution in Major US Cities',
+    title='Population Distribution in Major  Cities',
 )
 
 # Customize the map
