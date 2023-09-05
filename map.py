@@ -28,11 +28,11 @@ fig = px.scatter_geo(
 
 # Customize the map
 fig.update_geos(
-    resolution=110,
+    resolution=1080,
     showcoastlines=True,
     coastlinecolor="Black",
     showland=True,
-    landcolor="LightGray",
+    landcolor="LightGreen",
 )
 
 # Display the map using Streamlit
